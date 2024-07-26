@@ -37,7 +37,7 @@ app.post('/signup', (req, res) => {
 
   const postData = JSON.stringify(data);
 
-  fetch(https://us13.api.mailchimp.com/3.0/lists/afd416e405', {
+  fetch('https://us13.api.mailchimp.com/3.0/lists/afd416e405', {
     method: 'POST',
     headers: {
       Authorization: 'auth d7bd799a063cbd41069f10d91eb701dd-us13'
