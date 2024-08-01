@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle mailchimp_newsletter@1.0.0~prestart: mailchimp_newsletter@1.0.0
+6 silly lifecycle mailchimp_newsletter@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle mailchimp_newsletter@1.0.0~start: mailchimp_newsletter@1.0.0
+8 verbose lifecycle mailchimp_newsletter@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle mailchimp_newsletter@1.0.0~start: PATH: /usr/share/npm/bin/node-gyp-bin:/home/tony/mail/Mail/node_modules/.bin:/home/tony/.pyenv/plugins/pyenv-virtualenv/shims:/home/tony/.pyenv/shims:/home/tony/.pyenv/bin:/home/tony/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/bin/remote-cli:/home/tony/.pyenv/plugins/pyenv-virtualenv/shims:/home/tony/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu18.04LTS_1804.6.4.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/gwu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/gwu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+10 verbose lifecycle mailchimp_newsletter@1.0.0~start: CWD: /home/tony/mail/Mail
+11 silly lifecycle mailchimp_newsletter@1.0.0~start: Args: [ '-c', 'node app' ]
+12 silly lifecycle mailchimp_newsletter@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle mailchimp_newsletter@1.0.0~start: Failed to exec start script
+14 verbose stack Error: mailchimp_newsletter@1.0.0 start: `node app`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at EventEmitter.emit (events.js:214:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:126:13)
+14 verbose stack     at ChildProcess.emit (events.js:214:7)
+14 verbose stack     at maybeClose (internal/child_process.js:925:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+15 verbose pkgid mailchimp_newsletter@1.0.0
+16 verbose cwd /home/tony/mail/Mail
+17 error Linux 5.15.153.1-microsoft-standard-WSL2
+18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
+19 error node v8.10.0
+20 error npm  v3.5.2
+21 error code ELIFECYCLE
+22 error mailchimp_newsletter@1.0.0 start: `node app`
+22 error Exit status 1
+23 error Failed at the mailchimp_newsletter@1.0.0 start script 'node app'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the mailchimp_newsletter package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node app
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs mailchimp_newsletter
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls mailchimp_newsletter
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
